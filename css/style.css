@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+ font-size: 40px;
+}
+#name{
+    color: #FBBC05;
+}
+.header-area{
+    padding: 10px 0;
+}
+.fix{
+    overflow: hidden;
+}
+.container{
+    width: 1000px; margin: auto; background-color:  white;
+}
+/* Menu Start */
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none; margin: 0; padding: 0; 
+}
+.menu ul li{
+    float: left; margin-left: 15px;
+}
+.menu ul li a{
+    color: black;padding: 20px; display: block;
+}
+.menu ul li a:hover{
+    color: #FBBC05;
+}
+.half-width {
+    width:46%;
+
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 30px;
+}
