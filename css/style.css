@@ -1,22 +1,24 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    width: 1440px;
+  background-image: url("../img/banner.png");
+ background-repeat:no-repeat;  
 }
 section{
-				height: 500px;
-				background: ;
+
 }
 .container{ width: 1140px; margin: auto;
-				
+	
 }
 h1{
-font-size: 50px;	
+font-size: 50px;
 }
 h1 span{
 				color: orange;
 }
 h2{
-				
+	font-size: 40px;			
 }
 h3{
 				
@@ -24,11 +26,38 @@ h3{
 p{ 
 				color: dimgray;
 }
-.half-width{
+.top-banner{
+float: left;
+}
+.half-width1{
+float: left;
  width: 40%;
-    float: left;
+    padding-left: 5%;
+    padding-bottom: 150px;
+
+}
+.half-width2{
+float: left;
+ width: 40%;
     padding-left: 5%;
     padding-bottom: 150px;
 }
 img{
     width: 100%;
+    height: 100%;
+
+}
+last-banner{
+				
+}
+.btn a{
+       text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.btn {
+  
+    }
