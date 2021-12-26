@@ -1,63 +1,82 @@
+/*  .container{
+				width:1440px;
+} */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    width: 1440px;
-  background-image: url("../img/banner.png");
- background-repeat:no-repeat;  
 }
 section{
-
-}
-.container{ width: 1140px; margin: auto;
-	
-}
-h1{
-font-size: 50px;
-}
-h1 span{
-				color: orange;
-}
-h2{
-	font-size: 40px;			
-}
-h3{
-				
-}
-p{ 
-				color: dimgray;
+    height: 500px;
+    padding-bottom: 150px;
 }
 .top-banner{
-float: left;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
 }
-.half-width1{
-float: left;
- width: 40%;
-    padding-left: 5%;
-    padding-bottom: 150px;
-
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
-.half-width2{
-float: left;
- width: 40%;
-    padding-left: 5%;
-    padding-bottom: 150px;
+h1{
+    font-size: 50px;
 }
-img{
+h1 span{
+    color: orange;
+}
+.half-width img{
     width: 100%;
-    height: 100%;
-
 }
-last-banner{
-				
-}
-.btn a{
-       text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, orange);
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, tomato, orange);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
 }
-.btn {
-  
-    }
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("../img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("../img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, orange);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.exp{
+				margin-left: 5%;
+}
+a{
+				text-decoration: none;
+				color: orange;
+}
