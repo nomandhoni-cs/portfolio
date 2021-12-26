@@ -1,3 +1,6 @@
+/*  .container{
+				width:1440px;
+} */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +10,7 @@ section{
     padding-bottom: 150px;
 }
 .top-banner{
-    background-image: url("/img/banner.png");
+    background-image: url("../img/banner.png");
     background-repeat: no-repeat;
 }
 .half-width{
@@ -27,7 +30,7 @@ h1 span{
 }
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, tomato, orange);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -37,7 +40,7 @@ p{
     color: dimgray;
 }
 .dream-area{
-    background-image: url("/img/dream-bg.png");
+    background-image: url("../img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -45,7 +48,7 @@ h2{
     font-size: 40px;
 }
 .experience-area{
-    background-image: url("/img/exp-bg.png");
+    background-image: url("../img/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -59,14 +62,21 @@ h2{
 }
 #full-stack{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image: linear-gradient(180deg, tomato, orange);
     border-image-slice: 1;
 }
 #baby-web{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(180deg, tomato, orange);
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
+}
+.exp{
+				margin-left: 5%;
+}
+a{
+				text-decoration: none;
+				color: orange;
 }
